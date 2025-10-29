@@ -32,6 +32,10 @@ Download the latest version of Prism Launcher from https://prismlauncher.org/, i
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "MSA"}],"formatVersion": 3} > %appdata%/PrismLauncher/accounts.json
 ```
+### Windows PowerShell:
+```
+'{"accounts": [{"entitlement": {"canPlayMinecraft": true, "ownsMinecraft": true}, "type": "MSA"}], "formatVersion": 3}' | Out-File -FilePath "$env:APPDATA\PrismLauncher\accounts.json" -Encoding utf8 -Force
+```
 ### Linux Shell:
 ```
 echo '{"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "MSA"}],"formatVersion": 3}' > ~/.local/share/PrismLauncher/accounts.json
@@ -50,6 +54,10 @@ Download the portable version of [Prism Launcher](https://prismlauncher.org/), r
 ### Windows Portable (cd to installation path) CMD:
 ```
 echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "MSA"}],"formatVersion": 3} > accounts.json
+```
+### Windows Portable (cd to installation path) PowerShell:
+```
+'{"accounts": [{"entitlement": {"canPlayMinecraft": true, "ownsMinecraft": true}, "type": "MSA"}], "formatVersion": 3}' | Out-File -FilePath accounts.json -Encoding utf8 -Force
 ```
 ### Linux Portable (cd to installation path) Shell:
 ```
