@@ -1,11 +1,13 @@
+# ⚠️ NO LONGER WORKS ⚠️
+Prism Launcher added a check for Online Accounts.
+
+The fix is to download the older version of [Prism Launcher 9.4](https://github.com/PrismLauncher/PrismLauncher/releases/tag/9.4)
+
+...or modded versions of Prism Launcher like [FreesmLauncher](https://github.com/FreesmTeam/FreesmLauncher) or [PineconeMC](https://github.com/ElyPrismLauncher/Launcher)
+
 # About this project
 Bypass check if user has a real Microsoft account linked with the launcher<br>
 ⚠️ This is for entertainment purposes only ⚠️
-
-# UPDATE
-Prism Launcher added a check of Online Accounts. The fix is to download the older version of [Prism Launcher 9.4](https://github.com/PrismLauncher/PrismLauncher/releases/tag/9.4)
-
-💡  *As an alternative, the following steps works still in [PolyMc 7.0](https://github.com/PolyMC/PolyMC/releases/tag/7.0)*
 
 # This launcher is too complicated for me :(
 You can try out my other project [Offline Minecraft Launcher](https://github.com/antunnitraj/OfflineMinecraftLauncher)
